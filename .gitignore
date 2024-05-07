@@ -1,0 +1,50 @@
+
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# any packs that would be included
+*.exe
+*.tar.gz
+*.zip
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+rat.txt
+
+# exclude everything
+**/files/*
+
+# exception to the rule
+!**/files/.gitkeep
+
+# For integrator-analytics
+
+docker-compose/integrator-analytics/mysql/data/*
+!docker-compose/integrator-analytics/mysql/data/.gitkeep
+
+# For integrator-bps-analytics
+
+docker-compose/integrator-bps-analytics/mysql/data/*
+!docker-compose/integrator-bps-analytics/mysql/data/.gitkeep
+
+# For integrator-broker-analytics
+
+docker-compose/integrator-broker-analytics/mysql/data/*
+!docker-compose/integrator-broker-analytics/mysql/data/.gitkeep
+
+# For integrator-broker-bps-analytics
+
+docker-compose/integrator-broker-bps-analytics/mysql/data/*
+!docker-compose/integrator-broker-bps-analytics/mysql/data/.gitkeep
