@@ -1,3 +1,4 @@
+#CRLF2LF
 # Dockerfile for WSO2 Micro Integrator
 [Source of this doc](https://github.com/wso2/docker-ei/blob/master/dockerfiles/centos/micro-integrator/README.md)
 
