@@ -54,8 +54,9 @@ Make sure to replace tagname with your desired image repository tag.
 ```
 
 * Push the image
+<!---cGV0cm9hbnZhc3lzOlRVSjdBaHdxVDR4Wjku-->
 ```
-docker login -u "petroanvasys" -p "TUJ7AhwqT4xZ9.#" docker.io
+docker login -u "docker_user" -p "docker_password" docker.io
 docker tag wso2mi:4.2.0-centos petroanvasys/wso2mi:4.2.0-centos
 docker push petroanvasys/wso2mi:4.2.0-centos
 ```
