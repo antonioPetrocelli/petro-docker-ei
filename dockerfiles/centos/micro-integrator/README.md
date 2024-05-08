@@ -62,7 +62,7 @@ docker push petroanvasys/wso2mi:4.2.0-centos
 
 #### 4. Running the Docker image.
 
-- `docker run -it -p 8253:8253 -p 8290:8290 wso2mi:4.2.0-centos`
+- `docker run -it -p 8253:8253 -p 8290:8290 -p 9164:9164 wso2mi:4.2.0-centos`
 
 ## How to update configurations
 
