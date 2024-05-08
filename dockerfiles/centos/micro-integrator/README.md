@@ -18,7 +18,7 @@ This section defines the step-by-step instructions to build an [CentOS](https://
 git clone https://github.com/antonioPetrocelli/petro-docker-ei.git
 ```
 
->The local copy of the `dockerfiles/centos/micro-integrator` directory will be referred to as `MI_DOCKERFILE_HOME` from this point onwards.
+>The local copy of the `C:\Users\anton\OneDrive\Documenti\GitHub\petro-docker-ei\dockerfiles\centos\micro-integrator` directory will be referred to as `MI_DOCKERFILE_HOME` from this point onwards.
 
 #### 2. Build the Docker image.
 
