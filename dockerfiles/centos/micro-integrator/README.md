@@ -15,7 +15,7 @@ This section defines the step-by-step instructions to build an [CentOS](https://
 #### 1. Checkout this repository into your local machine using the following Git client command.
 
 ```
-git clone https://github.com/wso2/docker-ei.git
+git clone https://github.com/antonioPetrocelli/petro-docker-ei.git
 ```
 
 >The local copy of the `dockerfiles/centos/micro-integrator` directory will be referred to as `MI_DOCKERFILE_HOME` from this point onwards.
@@ -25,7 +25,7 @@ git clone https://github.com/wso2/docker-ei.git
 - Download wso2mi-4.2.0.zip from [here](https://wso2.com/micro-integrator)
 - Host the product pack using a webserver.
 - Navigate to `<MI_DOCKERFILE_HOME>` directory. <br>
-- Change <MI_DIST_URL> in Dockerfile to the URL of the product pack.  (http://some_domain_or_ip/wso2/wso2mi-4.2.0.zip)
+- Change <MI_DIST_URL> in Dockerfile to the URL of the product pack.  (http://15.161.184.189/wso2/wso2mi-4.2.0.zip)
 - Execute `docker build` command as shown below.
 
 ```
@@ -55,7 +55,7 @@ Make sure to replace tagname with your desired image repository tag.
 
 * Push the image
 ```
-docker login -u "<docker_username>" -p "<docker_password>" docker.io
+docker login -u "petroanvasys" -p "TUJ7AhwqT4xZ9.#" docker.io
 docker tag wso2mi:4.2.0-centos petroanvasys/wso2mi:4.2.0-centos
 docker push petroanvasys/wso2mi:4.2.0-centos
 ```
